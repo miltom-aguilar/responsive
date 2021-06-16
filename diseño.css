@@ -1,0 +1,137 @@
+.contenedor{
+   
+width: 375px;
+height: 667px;
+
+background: #FFFFFF;
+display: flex;
+flex-wrap: wrap;
+
+}
+
+
+
+.cuadro1{
+    position: absolute;
+width: 100%;
+height: 48px;
+left: 16px;
+top: 25px;
+
+background: rgba(12, 78, 247, 0.12);
+border: 1px solid rgba(184, 83, 83, 0.11);
+box-sizing: border-box;
+
+
+}
+.inicio{
+    position: absolute;
+width: 52px;
+height: 10px;
+left: 74px;
+top: 32px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+
+color: #000000;
+
+
+}
+
+.descripcion{
+    position: absolute;
+width: 96px;
+height: 9px;
+left: 218px;
+top: 33px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+
+color: #000000;
+
+}
+.imagen1{
+    position: absolute;
+width: 191px;
+height: 123px;
+left: 89px;
+top: 112px;
+
+background: url(images (1).jpg);
+
+}
+.descri{
+    position: absolute;
+width: 163px;
+height: 55px;
+left: 114px;
+top: 289px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+
+color: #000000;
+
+}
+.imagen2{
+    position: absolute;
+width: 280px;
+height: 138px;
+left: 54px;
+top: 407px;
+
+background: url(descarga (6).jpg);
+}
+
+.super{
+    position: absolute;
+width: 93px;
+height: 25px;
+left: 102px;
+top: 613px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+color: #000000;
+
+}
+
+.descarga{
+    position: absolute;
+width: 103px;
+height: 16px;
+left: 231px;
+top: 613px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+color: #000000;
+
+}
+
+@media(min-width:800px){
+.imagen1{width: 25%;}
+.descri{width: 75%;}
+.imagen2{width: 100%;}
+.super{ width: 50%;}
+.descarga{width: 50%;}
+}
